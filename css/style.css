@@ -1,0 +1,112 @@
+body {
+    background-color: whitesmoke !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.menu {
+    background-color: #64b7ff;
+}
+
+.logo {
+    width: 40px;
+}
+
+.livescore {
+    background-color: #2266a1;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.score {
+    padding-top: 20px;
+}
+
+.league {
+    padding-bottom: 5px;
+    border-bottom: inset;
+}
+
+.font {
+    width: 200px;
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+.fonttwo {
+    font-size: 12px;
+}
+
+.fontthree{
+    color: white !important;
+    font-weight: bold !important;
+    border: none !important;
+}
+
+.fontthree:hover{
+    background-color: #275277a1 !important;
+}
+
+.footerpadding {
+    padding-top: 50px;
+}
+
+.teamlogo {
+    width: 13px;
+}
+
+.newsbottom {
+    padding-bottom: 20px;
+}
+
+.teamprofilelogo {
+    width: 45px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.country{
+    width: 20px;
+}
+
+.tableheader{
+    display: flex;
+}
